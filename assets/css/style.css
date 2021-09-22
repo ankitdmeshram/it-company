@@ -1,17 +1,36 @@
 body {
   background-color: #fcfcfc;
 }
-.gs-nav {
-  background-color: white;
-}
-.hero {
-  background-color: #fafaff;
-  background: url("../img/pic3.svg");
+
+.gs-head
+{
+  background:   url("../img/slider.svg") ;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  padding: 150px 10px;
+  background-size: cover;
+  /* padding: 150px 10px; */
 }
+.head-logo 
+{
+  max-width: 150px;
+}
+.header nav ul li 
+{
+  padding: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+
+.hero {
+  /* background-color: #fafaff; */
+  background:   url("../img/pic3.svg"), url("../img/slider.svg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  padding: 125px 10px;
+}
+
 
 .hero .hero-content h5 {
   text-transform: uppercase;
