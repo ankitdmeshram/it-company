@@ -1,0 +1,255 @@
+body {
+  background-color: #fcfcfc;
+}
+.gs-nav {
+  background-color: white;
+}
+.hero {
+  background-color: #fafaff;
+  background: url("../img/pic3.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 150px 10px;
+}
+
+.hero .hero-content h5 {
+  text-transform: uppercase;
+  color: #896eff;
+}
+.hero .hero-content h1 {
+  color: #1f2471;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-size: 3.5rem;
+}
+.hero .hero-content h1 span {
+  color: #896eff;
+}
+.hero .hero-content h6 {
+  color: #606689;
+}
+
+.hero .hero-content .btn-theme {
+  background-color: #896eff;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.services {
+  padding: 120px 10px;
+  background: url("../img/bg-2.svg");
+}
+.services .head p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: 600;
+  padding: 5px 20px;
+  background: #f3f0ff;
+  color: #896eff;
+  font-weight: 600;
+}
+.services .head h1 {
+  font-weight: 700;
+  color: #1f2471;
+}
+.services .gs-icon {
+  background: #896eff;
+  border-radius: 50px;
+  padding: 20px;
+  width: 80px;
+  margin: auto;
+}
+.services .gs-icon img {
+  width: 80px;
+}
+.services h2 {
+  font-weight: 700;
+  color: #1f2471;
+  font-size: 25px;
+}
+.services .gs-service-box {
+  padding: 50px;
+  box-shadow: 1px 1px 3px 3px #aaaaaa22;
+}
+
+.about {
+  padding: 100px 10px;
+}
+.gs-p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: 600;
+  padding: 5px 20px;
+  background: #f3f0ff;
+  color: #896eff;
+  font-weight: 600;
+}
+.about h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1f2471;
+}
+.about ul li {
+  padding: 5px;
+  color: #575c91;
+  font-weight: 600;
+}
+.about .btn-theme {
+  background-color: #896eff;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.stats {
+  background: #896eff;
+  padding: 100px 10px;
+  background-image: url("/assets/img/bg3.svg");
+}
+.stats .icon-box {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.stats .gs-icon {
+  background: #896eff;
+  border-radius: 50px;
+  padding: 20px;
+  width: 80px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.stats .gs-icon i {
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+}
+.stats h3 {
+  color: #896eff;
+  font-weight: 800;
+}
+
+.workflow {
+  padding: 100px 10px;
+}
+.workflow h1 {
+  font-weight: 800;
+  font-size: 2.2rem;
+  color: #1f2471;
+}
+.workflow .gs-icon {
+  background: #896eff;
+  border-radius: 50px;
+  padding: 20px;
+  width: 80px;
+  margin-bottom: 15px;
+}
+.workflow .circ {
+  width: 100px;
+  color: white;
+}
+
+.workflow h2 {
+  color: #1f2471;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.subscription {
+  padding: 60px 10px;
+  background: #896eff;
+  background-image: url("/assets/img/bg13.svg");
+}
+.subscription h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+.subscription .p {
+  color: white;
+  font-weight: 600;
+}
+.subscription .gs-form-group .in-1 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.blog 
+{
+    padding: 100px 10px;
+}
+.blog .card 
+{
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 3px #aaaaaa22;
+
+}
+.blog .card h5 
+{
+    color: #1f2471;
+    font-weight: 700;
+}
+.blog .card p 
+{
+    color : rgb(35, 31, 61)
+}
+.blog h1 
+ {
+     color:rgb(35, 31, 61);
+     text-align: center;
+     font-weight: 700;
+     padding-bottom: 50px;
+ }
+
+footer 
+{
+    background-color: #896EFF;
+    padding: 100px 10px;
+    color: white;
+    background-image: url('/assets/img/bg10.svg');
+
+}
+
+footer .logo-footer
+{
+    max-width: 150px;
+
+}
+footer hr 
+{
+    color: white;
+    background-color: white;
+    height: 2px;
+}
+footer h4 
+{
+    font-weight: 7  00;
+}
+footer p 
+{
+    font-weight: 600;
+}
+
+footer p i 
+{
+    color: #896EFF;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+footer .list li 
+{
+    list-style-type: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
